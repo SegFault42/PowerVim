@@ -1,5 +1,7 @@
 #!/bin/bash
 
+git clone https://github.com/SegFault42/vim_config/blob/master/install.sh /tmp/vim_config
+
 # Install Vundle
 if [ -d "~/.vim/bundle/Vundle.vim" ]; then
 	printf "\033[31mVundle already installed\n\033[0m"
