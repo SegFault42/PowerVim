@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone https://github.com/SegFault42/vim_config /tmp
+git clone https://github.com/SegFault42/vim_config /tmp/vim_config
 
 # Install Vundle
 if [ -d "~/.vim/bundle/Vundle.vim" ]; then
