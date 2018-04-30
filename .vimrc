@@ -1,8 +1,8 @@
-set nocompatible              " be iMproved, required
+set nocompatible
 
-filetype off                  " required
+filetype off
 
-	set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
 "====================================Vim-Plugin=================================
