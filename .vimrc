@@ -1,15 +1,11 @@
 set nocompatible              " be iMproved, required
+
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
+	set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-
-"==============================================================================
-" let Vundle manage Vundle, required
+"====================================Vim-Plugin=================================
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
@@ -21,30 +17,43 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'vim-syntastic/syntastic'
-
-" All of your Plugins must be added before the following line
-" =============================================================================
-
+Plugin 'airblade/vim-gitgutter'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'tomtom/tlib_vim'
+Plugin 'Yggdroot/indentLine'
+Plugin 'myusuf3/numbers.vim'
+"====================================Vim-Plugin=================================
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-" To ignore plugin indent changes, instead use:
-"filetype plugin on
-"
-" Brief help
-" :PluginList       - lists configured plugins
-" :PluginInstall    - installs plugins; append `!` to update or just :PluginUpdate
-" :PluginSearch foo - searches for foo; append `!` to refresh local cache
-" :PluginClean      - confirms removal of unused plugins; append `!` to auto-approve removal
-"
-" see :h vundle for more details or wiki for FAQ
-" Put your non-Plugin stuff after this line
-"
 let g:Powerline_symbols = 'fancy'
+let g:NERDTreeDirArrowExpandable = '▸'
+let g:NERDTreeDirArrowCollapsible = '▾'
+let g:indentLine_color_term = 239
+let g:indentLine_char = '│'
+let g:indentLine_enabled = 1
+set smartindent
+set noexpandtab
+set copyindent
+set preserveindent
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
+set listchars=tab:>-,trail:~,extends:>,precedes:<
+set list
+set noswapfile
+set mouse=a
+set cc=80
+
+colorscheme badwolf
+syntax on
+set nu
 
 map <C-g> :NERDTreeToggle<CR>
 nnoremap <F5> :UndotreeToggle<cr>
-
-let g:NERDTreeDirArrowExpandable = '▸'
-let g:NERDTreeDirArrowCollapsible = '▾'
-
+"========================switch between pane in split mode======================
+map <C-j> <C-W>j
+map <C-k> <C-W>k
+map <C-h> <C-W>h
+map <C-l> <C-W>l
