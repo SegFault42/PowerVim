@@ -14,7 +14,6 @@ cp -fr /tmp/vim_config/.vimrc ~/.vimrc
 vim +PluginInstall +qall
 
 #install colorscheme
-mkdir -p ~/.vim/colors
 cp -fr /tmp/vim_config/colors ~/.vim/
 
 printf "\033[32mInstallation done.\n\033[0m"
