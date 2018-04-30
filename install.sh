@@ -10,10 +10,9 @@ else
 	printf "\033[32mInstalling Vundle\n\033[0m"
 fi
 
+cp -fr /tmp/vim_config/colors ~/.vim/
+
 cp -fr /tmp/vim_config/.vimrc ~/.vimrc
 vim +PluginInstall +qall
-
-#install colorscheme
-cp -fr /tmp/vim_config/colors ~/.vim/
 
 printf "\033[32mInstallation done.\n\033[0m"
