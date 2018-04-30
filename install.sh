@@ -15,10 +15,6 @@ vim +PluginInstall +qall
 
 #install colorscheme
 mkdir -p ~/.vim/colors
-if [ -d "~/.vim/colors/badwolf.vim" ]; then
-	cp -fr /tmp/vim_config/colors/badwolf.vim ~/.vim/colors/badwolf.vim
-else
-	printf "\033[31mBadwolf already installed\n\033[0m"
-fi
+cp -fr /tmp/vim_config/colors ~/.vim/
 
 printf "\033[32mInstallation done.\n\033[0m"
