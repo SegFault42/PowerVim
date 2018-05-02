@@ -27,12 +27,14 @@ Plugin 'myusuf3/numbers.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+
 let g:Powerline_symbols = 'fancy'
 let g:NERDTreeDirArrowExpandable = '▸'
 let g:NERDTreeDirArrowCollapsible = '▾'
 let g:indentLine_color_term = 239
 let g:indentLine_char = '│'
 let g:indentLine_enabled = 1
+
 set smartindent
 set noexpandtab
 set copyindent
@@ -45,6 +47,8 @@ set list
 set noswapfile
 set mouse=a
 set cc=80
+set hlsearch
+set encoding=utf-8
 
 colorscheme badwolf
 syntax on
