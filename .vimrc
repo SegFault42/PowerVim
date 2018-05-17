@@ -23,6 +23,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'tomtom/tlib_vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'myusuf3/numbers.vim'
+Plugin 'ekalinin/Dockerfile.vim'
 "====================================Vim-Plugin=================================
 
 call vundle#end()            " required
