@@ -24,6 +24,7 @@ Plugin 'tomtom/tlib_vim'
 Plugin 'Yggdroot/indentLine'
 Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'fatih/vim-go'
 "====================================Vim-Plugin=================================
 
 call vundle#end()            " required
