@@ -21,3 +21,5 @@ Plugin :
 -  [tlib_vim](https://github.com/tomtom/tlib_vim)
 - [indentLine](https://github.com/Yggdroot/indentLine)
 - [numbers.vim](https://github.com/myusuf3/numbers.vim)
+- [Dockerfile.vim](https://github.com/ekalinin/Dockerfile.vim)
+- [vim-go](https://github.com/fatih/vim-go)
