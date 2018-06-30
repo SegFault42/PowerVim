@@ -1,9 +1,11 @@
-![](https://user-images.githubusercontent.com/9384676/39415422-9c7f5268-4c43-11e8-94a2-c9ee2377c696.png)
-
 Installation (oh-my-zsh and PowerVim):
 
 	$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 	$ curl https://raw.githubusercontent.com/SegFault42/PowerVim/master/install.sh | bash
+
+![badwolf](https://user-images.githubusercontent.com/9384676/42127746-8301d708-7c9e-11e8-8df7-7cc19f5af3f4.png)
+![jellybeans](https://user-images.githubusercontent.com/9384676/42127749-ab6aec2a-7c9e-11e8-9f7d-4545819f9d14.png)
+![tender](https://user-images.githubusercontent.com/9384676/42127760-c4405a32-7c9e-11e8-97eb-99ac41de12b9.png)
 
 Plugin : 
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
