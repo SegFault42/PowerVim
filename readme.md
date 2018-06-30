@@ -1,9 +1,9 @@
 ![](https://user-images.githubusercontent.com/9384676/39415422-9c7f5268-4c43-11e8-94a2-c9ee2377c696.png)
 
-Installation (oh-my-zsh and vim_config):
+Installation (oh-my-zsh and PowerVim):
 
 	$ sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-	$ curl https://raw.githubusercontent.com/SegFault42/vim_config/master/install.sh | bash
+	$ curl https://raw.githubusercontent.com/SegFault42/PowerVim/master/install.sh | bash
 
 Plugin : 
 - [Vundle](https://github.com/VundleVim/Vundle.vim)
