@@ -38,6 +38,7 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 let g:indentLine_color_term = 239
 let g:indentLine_char = '│'
 let g:indentLine_enabled = 1
+let g:go_fmt_command = "goimports"
 
 set smartindent
 set noexpandtab
