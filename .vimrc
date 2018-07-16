@@ -26,6 +26,7 @@ Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
 
 "====================================Vim-Plugin=================================
 
@@ -39,6 +40,8 @@ let g:indentLine_color_term = 239
 let g:indentLine_char = '│'
 let g:indentLine_enabled = 1
 let g:go_fmt_command = "goimports"
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
 
 set smartindent
 set noexpandtab
