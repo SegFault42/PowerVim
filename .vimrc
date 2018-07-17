@@ -26,12 +26,19 @@ Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
+"colorscheme
+Plugin 'mhartington/oceanic-next'
+Plugin 'sjl/badwolf'
+Plugin 'whatyouhide/vim-gotham'
+Plugin 'morhetz/gruvbox'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'jacoborus/tender.vim'
 
 "====================================Vim-Plugin=================================
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+filetype plugin on
 
 let g:Powerline_symbols = 'fancy'
 let g:NERDTreeDirArrowExpandable = '▸'
@@ -58,7 +65,8 @@ set cc=80
 set hlsearch
 set encoding=utf-8
 
-colorscheme badwolf
+"colorscheme badwolf
+colorscheme tender
 syntax on
 set nu
 
