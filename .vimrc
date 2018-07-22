@@ -66,7 +66,7 @@ set hlsearch
 set encoding=utf-8
 
 "colorscheme badwolf
-colorscheme badwolf
+colorscheme tender
 syntax on
 set nu
 
