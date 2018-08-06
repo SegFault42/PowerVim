@@ -65,14 +65,10 @@ set cc=80
 set hlsearch
 set encoding=utf-8
 
-<<<<<<< HEAD
-colorscheme gruvbox
-=======
 "===========colorscheme
 colorscheme gruvbox
 set background=dark    " Setting dark mode
 
->>>>>>> 0048a262ede0b2738f1ebcceedbc3c38ae033efc
 syntax on
 set nu
 
