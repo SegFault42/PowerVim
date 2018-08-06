@@ -26,11 +26,19 @@ Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
+"colorscheme
+Plugin 'mhartington/oceanic-next'
+Plugin 'sjl/badwolf'
+Plugin 'whatyouhide/vim-gotham'
+Plugin 'morhetz/gruvbox'
+Plugin 'nanotech/jellybeans.vim'
+Plugin 'jacoborus/tender.vim'
 
 "====================================Vim-Plugin=================================
 
 call vundle#end()            " required
 filetype plugin indent on    " required
+filetype plugin on
 
 let g:Powerline_symbols = 'fancy'
 let g:NERDTreeDirArrowExpandable = '▸'
@@ -38,6 +46,9 @@ let g:NERDTreeDirArrowCollapsible = '▾'
 let g:indentLine_color_term = 239
 let g:indentLine_char = '│'
 let g:indentLine_enabled = 1
+let g:go_fmt_command = "goimports"
+let g:go_highlight_function_calls = 1
+let g:go_highlight_operators = 1
 
 set smartindent
 set noexpandtab
@@ -54,7 +65,7 @@ set cc=80
 set hlsearch
 set encoding=utf-8
 
-colorscheme badwolf
+colorscheme gruvbox
 syntax on
 set nu
 
@@ -67,3 +78,7 @@ map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
+
+noremap + :vertical resize +1<CR>
+noremap - :vertical resize -1<CR>
+noremap ~ <C-w>=
