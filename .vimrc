@@ -11,8 +11,10 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'vim-scripts/L9'
-Plugin 'othree/vim-autocomplpop'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'ryanoasis/vim-devicons'
 Plugin 'vim-airline/vim-airline'
+"Plugin 'vim-airline/vim-airline-themes'
 Plugin 'scrooloose/nerdtree'
 Plugin 'mbbill/undotree'
 Plugin 'MarcWeber/vim-addon-mw-utils'
@@ -26,6 +28,7 @@ Plugin 'myusuf3/numbers.vim'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'fatih/vim-go'
 Plugin 'terryma/vim-multiple-cursors'
+Plugin 'vim-scripts/OmniCppComplete'
 "colorscheme
 Plugin 'mhartington/oceanic-next'
 Plugin 'sjl/badwolf'
@@ -49,6 +52,18 @@ let g:indentLine_enabled = 1
 let g:go_fmt_command = "goimports"
 let g:go_highlight_function_calls = 1
 let g:go_highlight_operators = 1
+
+"vim ariline
+let g:airline_theme='gruvbox' "or hybrid
+let g:airline_powerline_fonts = 1  "for icons vim-devicons
+let g:hybrid_reduced_contrast = 1
+let g:hybrid_custom_term_colors = 1
+let g:airline#extensions#tabline#enabled = 1
+
+let g:ycm_global_ycm_extra_conf = "~/.vim/.ycm_extra_conf.py"
+
+" disable hide json double quote
+let g:indentLine_setConceal = 0
 
 set smartindent
 set noexpandtab
